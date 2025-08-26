@@ -29,7 +29,7 @@ st.subheader("Retencion 2007 - 2025")
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 import pandas as pd
-from gspread_dataframe import set_with_dataframe
+#from gspread_dataframe import set_with_dataframe
 
 # Abrir la hoja de cálculo por ID
 scope = ['https://spreadsheets.google.com/feeds',
